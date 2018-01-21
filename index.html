@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link href="https://fonts.googleapis.com/css?family=Atomic Age" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=UnifrakturMaguntia' rel='stylesheet'>
+  <title>Random Quotes by Vikas Rathee</title>
+  <script type="text/javascript" src="Random.js"></script>
+<style>
+body{
+	background-color: #ffd966;
+	margin: 0;
+	padding: 0;
+}
+h1{
+	text-align: center;
+	font-family: UnifrakturMaguntia;
+	font-size: 8vw;
+	padding-bottom: 30px;
+	color: #cc0000;
+
+}
+.well{
+	background-color:  #1f1f14;
+	max-width: 80%;
+	margin: auto;
+	min-height: 100%;
+}
+blockquote{
+	background-color:  #c2c2a3;
+}
+blockquote p{
+	font-size: 2.5vw;
+}
+blockquote footer{
+	font-size: 2vw;
+}
+
+#next-button{
+	float: right;
+}
+
+.bottom-footer{
+	background-color: #1f1f14;
+	width: 100%;
+	padding: 5px;
+	margin-top: 30px;
+	left: 0;
+	bottom: 0;
+	position: absolute;
+}
+
+.bottom-footer p{
+	text-align: center;
+	color: white;
+	margin-top:5px;
+}
+
+
+</style>
+</head>
+<body onload="myFun()">
+	<section>
+	<div class="container-fluid">
+		<h1>Motivational Quotes</h1>
+		<div class="well ">
+			<blockquote class="blockquote-reverse">
+				<p class="text-justify"><span class="fa fa-quote-left" aria-hidden="true"></span><span id="quote"></span><span class="fa fa-quote-right"></span></p>
+				<footer id="quote-footer"></footer>
+			</blockquote>
+			<a id="twitter-button" target="_blank"><button type="button" class="btn btn-default" "><span class="fa fa-twitter fa-lg" style="color:#00aced;"></span></button></a>
+			<button type="button" class="btn btn-default" id="next-button">Next Quote</button>
+		</div>
+	</div>
+	<section>
+	<footer>
+		<div class="bottom-footer">
+			<p>Created by Vikas Rathee</p>
+		</div>
+	</footer>
+</body>
+</html>
